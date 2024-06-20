@@ -6,14 +6,14 @@ on:
       - main
 permissions:
   contents: write
-  jobs:
-    my-first-job:
-      name: print hello
-      runs-on: ubuntu-latest
-      steps:
-        - run: echo "Hello world"
-    my-second-job:
-      name: print bye
-      runs-on: ubuntu-latest
-      steps:
+jobs:
+  my-first-job:
+    name: print hello
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello world"
+  my-second-job:
+    name: print bye
+    runs-on: ubuntu-latest
+    steps:
       - run: echo "good bye!!"
