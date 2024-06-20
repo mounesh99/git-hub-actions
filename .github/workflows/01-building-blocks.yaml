@@ -1,5 +1,11 @@
 name: 01-building-blocks
-on: push
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+  permissions:
+    contents: write
   jobs:
     my-first-job:
     runs-on: ubuntu-latest
