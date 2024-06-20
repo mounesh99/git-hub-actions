@@ -1,0 +1,11 @@
+name: 01-building-blocks
+on: push
+  jobs:
+    my-first-job:
+    runs-on: ubuntu-latest
+      steps:
+        - run: echo "Hello world"
+    my-second-job:
+    runs-on: ubuntu-latest
+      steps:
+      - run: echo "good bye!!"
