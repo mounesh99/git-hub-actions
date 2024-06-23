@@ -1,0 +1,10 @@
+name: 04-using-actions
+on:
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-lates
+
+    #01. Checkout the code from the repository
+    #02. Install dep of our react application
+    #03. Excute automated tests
