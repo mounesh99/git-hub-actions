@@ -4,6 +4,11 @@ on:
 jobs:
   build:
     runs-on: ubuntu-lates
+    steps:
+      - name: checkout code
+        uses: actions/checkout@v4
+      - name : Printint Folders
+        run: ls
 
     #01. Checkout the code from the repository
     #02. Install dep of our react application
