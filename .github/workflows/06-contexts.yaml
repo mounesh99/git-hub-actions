@@ -7,8 +7,6 @@ on:
       debug:
         type: boolean
         default: false
-
-
 jobs: 
   echo-data:
     runs-on: ubuntu-latest
